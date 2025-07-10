@@ -7,7 +7,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['vite.svg'],
+      includeAssets: ['vite.svg','react.svg'],
       manifest: {
         name: 'My PWA App',
         short_name: 'PWA',
